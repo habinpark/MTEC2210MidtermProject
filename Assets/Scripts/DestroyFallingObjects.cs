@@ -19,7 +19,7 @@ public class DestroyFallingObjects : MonoBehaviour
     //on trigger destroy colliding objects if the tag is equal to "fallingObject"
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "fallingObject")
+        if (collision.gameObject.tag == "ChangeScene" || collision.gameObject.tag == "GainPoints" || collision.gameObject.tag == "EndGame")
         {
             Destroy(collision.gameObject);
         }
