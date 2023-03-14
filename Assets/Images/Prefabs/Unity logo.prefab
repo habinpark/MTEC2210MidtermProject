@@ -117,5 +117,5 @@ MonoBehaviour:
   moveSpeedMin: 0.001
   moveSpeedMax: 0.01
   moveSpeed: 0
-  rotateSpeed: 0.6
+  rotateSpeed: 0.3
   shouldRotate: 1
