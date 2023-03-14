@@ -424,6 +424,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.01
   textMeshProGO: {fileID: 2128079555}
+  deathSound: {fileID: 8300000, guid: 619973f48d54d1c47884edd6d7eccdad, type: 3}
+  gainPointsSound: {fileID: 8300000, guid: 99c54216d4f0b2849be8aba6cb1d9454, type: 3}
 --- !u!82 &687823903
 AudioSource:
   m_ObjectHideFlags: 0
@@ -436,7 +438,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1871796db50ea21489ab5cd1146492ef, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
